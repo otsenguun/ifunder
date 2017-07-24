@@ -1,0 +1,95 @@
+/*====================================================
+The file should contain selectors that can be used as CONSTANT
+====================================================*/  
+
+/* CSS for Clearing floated elements */
+.clear, .clr { display: block;  clear: both !important;  }
+.clearfix:after, .gform_fields:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+html[xmlns] .clearfix, html[xmlns] .gform_fields { display: block; }
+* html .clearfix, * html .gform_fields { height: 1%; }
+figure{max-width: 100%;}
+
+/* Default classes that uses by wordpress to align images */
+img.alignright { float:right; margin:0 0 1em 1em; }
+img.alignleft { float:left; margin:0 1em 1em 0; }
+img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+.gallery-caption{}
+.bypostauthor{}
+.sticky{}
+
+/* Plugin's style preset */
+#infscr-loading{ text-align: center; margin-bottom: 20px; }
+.flexslider { position: relative; }
+
+/* Default style for some elements */
+img, .img-responsive { max-width: 100%; width: auto\9; height: auto; vertical-align: middle; border: 0; -ms-interpolation-mode: bicubic; }
+hr{ border-top: 1px solid #D8D5D5; }
+a:hover, a:active, a:focus { outline: none !important; }
+object, embed { outline: 0 !important; }
+input::-moz-focus-inner { border: 0 !important; }
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder, textarea:focus:-moz-placeholder { color:transparent; }
+input:focus::-moz-placeholder, textarea:focus::-moz-placeholder { color:transparent; }
+input:focus:-ms-input-placeholder,textarea:focus:-ms-input-placeholder { color:transparent; }
+
+/* Helper classes */
+.block{ display: block; }
+.u-case{ text-transform: uppercase; }
+.c-case{ text-transform: capitalize; }
+.l-case{ text-transform: lowercase; }
+.strong{ font-weight: bold; }
+.em{ font-style: italic; }
+
+/* Default Post Styles for wordpress */
+.blog-panel-default{background: #fff; color: #000;}
+.blog-panel-default .wrapper{min-height: 400px; padding-top: 60px; padding-bottom: 30px;}
+.blog-panel-default a:link, .blog-panel-default a:visited { color: #ff0000; }
+.blog-panel-default .mastertheme-blog-posts{padding-right: 50px;}
+.blog-panel-default .mastertheme-blog-posts > article{ box-shadow: 0 0 1px rgba(0, 0, 0, 0.35); margin-bottom: 40px;}
+.blog-panel-default .blog-post-title{margin-top: 20px; }
+.blog-panel-default .blog-post-footer{ padding: 26px 30px; background-color: #f7f7f7;}
+.blog-panel-default .blog-post-content{ padding: 30px; padding-top: 10px; }
+.blog-panel-default .blog-post-content table{width: 100%;}
+.blog-panel-default .blog-post-header{ padding: 20px 30px; padding-bottom: 0; }
+.blog-panel-default .blog-post-footer > span{padding-right: 10px;}
+
+.blog-panel-default .mastertheme-widget{margin-bottom: 40px;}
+.blog-panel-default .mastertheme-widget-title{margin-top: 0; margin-bottom: 15px;}
+.blog-panel-default .mastertheme-widget ul{padding: 0; list-style: none;}
+.blog-panel-default .mastertheme-widget ul ul{margin-left: 30px;}
+.blog-panel-default .mastertheme-widget ul ul ul{margin-left: 60px;}
+.blog-panel-default .mastertheme-widget ul li{padding-bottom: 2px;   border-bottom: 1px solid rgba(0,0,0,.2); padding-top: 5px;}
+.blog-panel-default .mastertheme-widget ul li:last-child{border-bottom: 0;}
+.blog-panel-default .mastertheme-widget #wp-calendar{width: 100%;}
+.blog-panel-default .mastertheme-widget #wp-calendar td{padding: 3px; border: 1px solid #ccc;}
+
+/* CONSTANT classes */
+.fade-on-load{ position: relative; opacity: 0; top: -30px; }
+.panel-padding--left--right{padding-left: 20px; padding-right: 20px;}
+.panel-padding{padding-top: 75px; padding-bottom: 45px;}
+.panel-extra-padding{padding-top: 120px; padding-bottom: 120px;}
+.block{display: block !important;height: auto !important;}
+
+.flex-ordering{
+	order:1;
+	-webkit-order:1;
+}
+
+.margin-btm-75{
+	margin-bottom: 75px;
+}
+
+.padding-left-20{
+	padding-left: 20%;
+}
+
+.padding-left-10{
+	padding-left: 10%;
+}
+
+/* Animation Classes */
+
+/* Media Query Helpers */
+@media (max-width: 767px){	
+    .fade-on-load{ position: relative; opacity: 1 !important; top: 0 !important; }
+}

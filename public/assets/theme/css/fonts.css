@@ -1,0 +1,108 @@
+/**********************************************************************
+Express - Responsive HTML5 Corporate Business Template
+* 
+* File name:   
+*      fonts.css
+* Brief:       
+*      The file contains css codes for fonts
+* Author:      
+*      ThemeCottage
+* Contact:
+*      mksumon101@gmail.com
+***********************************************************************/  
+
+@font-face {
+    font-family: 'neusalight';
+    src: url('../fonts/Neusa-Light-webfont.eot');
+    src: url('../fonts/Neusa-Light-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Neusa-Light-webfont.html') format('woff2'),
+         url('../fonts/Neusa-Light-webfont.woff') format('woff'),
+         url('../fonts/Neusa-Light-webfont.ttf') format('truetype'),
+         url('../fonts/Neusa-Light-webfont.svg#neusalight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'neusamedium';
+    src: url('../fonts/Neusa-Medium-webfont.eot');
+    src: url('../fonts/Neusa-Medium-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Neusa-Medium-webfont.html') format('woff2'),
+         url('../fonts/Neusa-Medium-webfont.woff') format('woff'),
+         url('../fonts/Neusa-Medium-webfont.ttf') format('truetype'),
+         url('../fonts/Neusa-Medium-webfont.svg#neusamedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'neusaregular';
+    src: url('../fonts/Neusa-Regular-webfont.eot');
+    src: url('../fonts/Neusa-Regular-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Neusa-Regular-webfont.html') format('woff2'),
+         url('../fonts/Neusa-Regular-webfont.woff') format('woff'),
+         url('../fonts/Neusa-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Neusa-Regular-webfont.svg#neusaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'neusasemibold';
+    src: url('../fonts/Neusa-SemiBold-webfont.eot');
+    src: url('../fonts/Neusa-SemiBold-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Neusa-SemiBold-webfont.html') format('woff2'),
+         url('../fonts/Neusa-SemiBold-webfont.woff') format('woff'),
+         url('../fonts/Neusa-SemiBold-webfont.ttf') format('truetype'),
+         url('../fonts/Neusa-SemiBold-webfont.svg#neusasemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'neusablack';
+    src: url('../fonts/Neusa-Black-webfont.eot');
+    src: url('../fonts/Neusa-Black-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Neusa-Black-webfont.html') format('woff2'),
+         url('../fonts/Neusa-Black-webfont.woff') format('woff'),
+         url('../fonts/Neusa-Black-webfont.ttf') format('truetype'),
+         url('../fonts/Neusa-Black-webfont.svg#neusablack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'neusabold';
+    src: url('../fonts/Neusa-Bold-webfont.eot');
+    src: url('../fonts/Neusa-Bold-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Neusa-Bold-webfont.html') format('woff2'),
+         url('../fonts/Neusa-Bold-webfont.woff') format('woff'),
+         url('../fonts/Neusa-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/Neusa-Bold-webfont.svg#neusabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'neusademibold';
+    src: url('../fonts/Neusa-DemiBold-webfont.eot');
+    src: url('../fonts/Neusa-DemiBold-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Neusa-DemiBold-webfont.html') format('woff2'),
+         url('../fonts/Neusa-DemiBold-webfont.woff') format('woff'),
+         url('../fonts/Neusa-DemiBold-webfont.ttf') format('truetype'),
+         url('../fonts/Neusa-DemiBold-webfont.svg#neusademibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'neusaextrabold';
+    src: url('../fonts/Neusa-ExtraBold-webfont.eot');
+    src: url('../fonts/Neusa-ExtraBold-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Neusa-ExtraBold-webfont.html') format('woff2'),
+         url('../fonts/Neusa-ExtraBold-webfont.woff') format('woff'),
+         url('../fonts/Neusa-ExtraBold-webfont.ttf') format('truetype'),
+         url('../fonts/Neusa-ExtraBold-webfont.svg#neusaextrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

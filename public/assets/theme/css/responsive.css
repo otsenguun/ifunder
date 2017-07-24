@@ -1,0 +1,428 @@
+/* MEDIA QUERIES
+================================================== */
+
+/* Medium Devices, Desktops */
+@media (max-width: 1199px){
+
+/*------- Common Column Panel --------*/
+	.one-column-content-block__image {
+	  	padding-top: 20px;
+	}
+
+	.learn-more{
+		padding-top: 10px;
+	}
+
+	.panel-padding,
+	.panel-extra-padding{
+		padding-top: 70px;
+		padding-bottom: 70px;
+	}
+
+/*------- Featured Panel --------*/
+	.featured-panel .wrapper {
+	  	height: 500px;
+	}
+
+	.featured-panel::after {
+	    height: 540px;
+	}
+
+/*------- Icon Boxes --------*/
+	.icons-boxes{
+		margin: 30px auto 0;
+	}
+
+	.services-itemes__item__hidden-item{
+		padding: 15px;
+	}
+
+/*------- Footer Panel --------*/
+	.footer-panel{
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media (max-width: 991px){
+
+	/*------- Menu Panel --------*/
+	.module-nav__items > li > a{
+		margin: 0 10px;
+	}
+
+	.panel-padding,
+	.panel-extra-padding,
+	.footer-panel{
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+/*------- Icon Boxes --------*/
+	.icons-boxes{
+		margin: 10px auto 0;
+	}
+
+    .featured-panel .wrapper{
+        height: 400px;
+        padding-top: 75px;
+    	padding-bottom: 75px;
+    }
+
+    .featured-panel::after {
+	    height: 440px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media (max-width: 880px){
+
+/*------- Common Style --------*/
+	h1, .h1{
+		font-size: 42px;
+		margin-bottom: 20px;
+	}
+
+	h2, .h2 {
+		font-size: 27px;
+		margin-bottom: 15px;
+	}
+
+	.padding-left-20 {
+	  	padding-left: 10%;
+	}
+
+	.padding-left-10 {
+	  	padding-left: 5%;
+	}
+
+	.margin-btm-75 {
+	 	margin-bottom: 45px;
+	}
+
+/*------- Menu Panel --------*/
+    .module-nav__items > li > a{
+        margin: 0;
+        font-size: 20px;
+    }
+
+/*------- Inner Banner Panel --------*/
+	.inner-banner-panel::after {
+		top: 108px;
+	}
+
+/*------- Featured Panel --------*/
+	.featured-panel-content__box > h2{
+	  	font-size: 22px;
+    	line-height: 30px;
+	}
+
+	.featured-panel-content__box{
+		padding: 0;
+	}
+
+/*------- Icon Boxes --------*/
+	.icons-boxes{
+		margin: 0 auto;
+	}
+
+/*-------- Footer Panel -------*/
+	.footer-panel{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+}
+
+/* Small Devices Potrait */
+@media (max-width: 767px){
+
+/*------- Common Style --------*/
+
+	.padding-left-20,
+	.padding-left-10 {
+	  	padding-left: 0;
+	}
+
+	.margin-btm-75 {
+	 	margin-bottom: 20px;
+	}
+
+	h1, .h1 {
+	    font-size: 28px;
+	    margin-bottom: 20px;
+	}
+
+	.page-title {
+	  	font-size: 60px;
+	}
+	
+	.learn-more a{
+		font-size: 15px;
+		padding: 5px 20px 4px;
+	}
+	.wrapper,
+	.one-column-content-block .wrapper,
+	.tow-column-content-block .wrapper{
+		max-width: 480px;
+	}
+
+	.panel-padding--left--right, 
+	.footer-panel {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+    .site-logo{
+    	max-width: 100px;
+        left: 50%;
+        margin-left: -50px;
+    	margin-top: -17px;
+    }
+
+	.header-panel{
+		padding-top: 100px;
+        padding-bottom: 45px;
+	}
+
+	.is-sticky .header-panel{
+		padding-top: 80px;
+        padding-bottom: 25px;
+	}
+
+	.one-column-content-block__text-box,
+	.tow-column-content-block__text-box,
+	.one-column-content-block__text-box h1,
+	.tow-column-content-block__text-box h1{
+		text-align: center;
+	}
+
+/*------- Module Nav ------*/
+	.module-nav{
+		width: 100%;
+		top: 0;
+		left: 0;
+		position: fixed;
+		min-height: 50px;
+		background: #fdc716;
+		border-bottom: 1px solid #fff;
+		z-index: 1000;
+		display: block;
+	}
+	
+	.module-nav__toggle{
+		position: relative;
+		float: right;
+		margin-right: 7px;
+		padding: 9px 10px;
+		margin-top: 8px;
+		margin-bottom: 8px;
+		background-color: transparent;
+		background-image: none;
+		border: 1px solid transparent;
+		border-radius: 4px;
+		background: #fff;
+		outline: none;
+	}
+	
+	.module-nav__toggle:focus,
+	.module-nav__toggle:hover{
+		background: #333;
+	}
+	
+	.module-nav__toggle:focus .icon-bar,
+	.module-nav__toggle:hover .icon-bar{
+		background: #fdc716;
+	}
+
+	.navbar-collapse{
+		box-shadow: inset 0 1px 0 #fff;
+	}
+	
+	.module-nav__toggle .icon-bar{
+		display: block;
+		width: 22px;
+		height: 2px;
+		border-radius: 1px;
+		background: #fdc716;
+	}
+	
+	.module-nav__toggle .icon-bar+.icon-bar{
+		margin-top: 4px;
+	}
+	
+	.module-nav .module-nav_label{
+		float: left;
+		margin-top: 13px;
+		margin-left: 10px;
+		text-transform: uppercase;
+		font-size: 17px;
+		color: #fff;
+		text-decoration: none;
+		font-weight: bold;
+	}
+	
+	.module-nav__items{
+		text-align: left;
+	}
+	
+	.module-nav__items > li > a{
+        margin-bottom: 1px;
+        margin-right: 0;
+        margin-left: 0;
+        line-height: 35px;
+        font-size: 17px;
+  		padding: 1px 10px 0;
+	}
+
+	.module-nav__items > .current-menu-item a,
+	.module-nav__items > li > a:hover{
+        background: #fff;
+	}
+
+	.module-nav__items > li:first-child a{
+		margin-top: 0;
+	}
+
+	.module-nav__items > .current-menu-item > a:before,
+	.module-nav__items > li > a:hover:before{
+		display: none;
+	}
+	
+	.module-nav .navbar-collapse{
+		width: 100%;
+        padding: 0;
+	}
+	
+	.module-nav__items > li{
+		width: 100%;
+		float: none;
+	}
+
+/*------- Widget Box ------*/
+	.widget-box img {
+		margin-bottom: 15px;
+	}
+
+/*------- Contact Box ------*/
+	.contact-box{
+		margin-bottom: 25px;
+	}
+
+/*------ Featured Panel -------*/
+	.featured-panel .wrapper {
+        height: 100%;
+        display: block;
+        padding-top: 40px;
+        padding-bottom: 40px;
+	}
+
+	.featured-panel::after {
+	    height: 887px;
+	}
+
+/*------- Common Column Panel --------*/
+	.tow-column-content-block .wrapper .row{
+		display: block;
+	}
+
+	.tow-column-content-block__image{
+		text-align: center;
+		margin-bottom: 40px;
+	}
+
+/*------- Services Items -----------*/
+	.services-itemes__box {
+	 	margin-bottom: 25px;
+	}
+    
+    .icons-boxes {
+        max-width: 300px;
+        padding-top: 20px;
+    }
+    
+    .inner-banner-title{
+        font-size: 28px;
+        line-height: 32px;
+		padding-left: 0;
+    }
+    
+    .inner-banner-panel .wrapper{
+        height: 320px;
+    }
+
+	.inner-banner-panel::after {
+		height: 355px;
+	}
+
+/*------- Footer Panel -----------*/
+	.footer-panel__footer-menu{
+		max-width: 355px;
+	}
+
+	.footer-panel__footer-menu a {
+		color: #000;
+		font-size: 15px;
+		margin: 0 6px;
+	}
+
+	.footer-panel__info-menu li {
+		font-size: 15px;
+		margin-right: 20px;
+	}
+    
+    .featured-panel-content__box{
+        margin-bottom: 40px;
+    }
+
+    .featured-panel-content__box:last-child{
+    	margin-bottom: 0;
+    }
+}
+
+/* Small Devices Potrait */
+@media (max-width: 767px){
+	.footer-panel__footer-menu a,
+	.footer-panel__info-menu li{
+	    font-size: 13px;
+	}
+}
+
+/* Extra Small Devices, Phones */ 
+@media (max-width: 480px){
+
+/*------- Common Style -----------*/
+	.wrapper,
+	.one-column-content-block .wrapper,
+	.tow-column-content-block .wrapper{
+		max-width: 350px;
+	}
+
+/*------- Map -----------*/
+    .map {
+	    height: 200px;
+	}
+
+/*------- Footer Style -----------*/
+	.footer-panel__footer-menu a, 
+	.footer-panel__info-menu li a, 
+	.footer-panel__info-menu li{
+	    font-size: 13px;
+	}
+}
+
+/* Extra Small Devices, Phones */ 
+@media (max-width: 320px){
+
+/*------- Logo Style -----------*/
+	.is-sticky .site-logo {
+	    margin-left: -50px;
+	}
+
+/*------- Footer Style -----------*/
+	.footer-panel__info-menu li {
+	    font-size: 12px;
+	}
+	.footer-panel__footer-menu a{
+		font-size: 14px;
+	}
+}
